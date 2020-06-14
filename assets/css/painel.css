@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+}
+.menu {
+    background-color: #000;
+    color: #fff;
+    height: 50px;
+}
+.ul-esquerda {
+    margin: 0px;
+    padding: 0px;
+}
+.ul-esquerda li {
+    list-style: none;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.ul-direita {
+    margin: 0px;
+    padding: 0px;
+}
+.ul-direita li {
+    list-style: none;
+    float: right;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+.menu li:hover {
+    background-color: #fff;
+    color: #000;
+}
+.container {
+    margin: 5px;
+}

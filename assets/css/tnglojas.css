@@ -1,0 +1,195 @@
+/*Lojas*/
+#ddm .active { display:inherit; }
+ul#map {display: block; margin: 0 0 40px; padding: 0; width: 570px; height: 585px; background-image: url('../../assets/images/img-mapa/map.png');}
+ul#map li {display: block; padding: 0; position: absolute; z-index: 1;}
+li#crs {margin-top: 485px; margin-left: 237px; }
+li#csc {margin-top: 467px; margin-left: 292px;}
+li#cpr {margin-top: 416px; margin-left: 281px;}
+li#csp {margin-top: 375px; margin-left: 303px; z-index:9999; }
+li#cms {margin-top: 336px; margin-left: 229px;}
+li#crj {margin-top: 390px; margin-left: 422px; z-index:9999; }
+li#ces {margin-top: 347px; margin-left: 467px; z-index:9999; }
+li#cmg {margin-top: 292px; margin-left: 333px; z-index:9998; }
+li#cgo {margin-top: 264px; margin-left: 301px; z-index:9999; }
+li#cdf {margin-top: 311px; margin-left: 373px; z-index:9999; }
+li#cba {margin-top: 207px; margin-left: 397px;}
+li#cmt {margin-top: 189px; margin-left: 180px;}
+li#cro {margin-top: 199px; margin-left: 104px; z-index:9998; }
+li#cac {margin-top: 185px; margin-left: 0px;}
+li#cam {margin-top: 46px; margin-left: 3px;}
+li#crr {margin-top: 0; margin-left: 133px;}
+li#cpa {margin-top: 40px; margin-left: 219px;}
+li#cap {margin-top: 13px; margin-left: 278px;}
+li#cma {margin-top: 94px; margin-left: 366px; z-index:9999;}
+li#cto {margin-top: 156px; margin-left: 338px;}
+li#cse {margin-top: 221px; margin-left: 519px; z-index:9998;}
+li#cal {margin-top: 211px; margin-left: 518px; z-index:9999;}
+li#cpe {margin-top: 188px; margin-left: 473px;}
+li#cpb {margin-top: 169px; margin-left: 511px; z-index:9999;}
+li#crn {margin-top: 151px; margin-left: 514px;}
+li#cce {margin-top: 121px; margin-left: 473px;}
+li#cpi {margin-top: 120px; margin-left: 406px; z-index:9997;}
+ul#map li span {display: block; text-decoration: none; position: absolute;}
+span#rs {width: 116px; height: 101px; }
+span#sc {width: 81px; height: 53px; }
+span#pr {width: 97px; height: 64px; }
+span#sp {width: 131px; height: 84px; }
+span#ms {width: 106px; height: 104px; }
+span#rj {width: 58px; height: 40px; }
+span#es {width: 33px; height: 51px; }
+span#mg {width: 163px; height: 131px; }
+span#go {width: 108px; height: 108px; }
+span#df {width: 16px; height: 9px; }
+span#ba {width: 136px; height: 148px; }
+span#mt {width: 166px; height: 161px; }
+span#ro {width: 104px; height: 87px; }
+span#ac {width: 108px; height: 62px; }
+span#am {width: 258px; height: 181px;}
+span#rr {width: 87px; height: 103px; }
+span#pa {width: 188px; height: 187px; }
+span#ap {width: 73px; height: 85px; }
+span#ma {width: 102px; height: 139px; }
+span#to {width: 74px; height: 125px; }
+span#se {width: 28px; height: 32px; }
+span#al {width: 46px; height: 27px; }
+span#pe {width: 97px; height: 34px; }
+span#pb {width: 59px; height: 35px; }
+span#rn {width: 53px; height: 33px; }
+span#ce {width: 61px; height: 76px; }
+span#pi {width: 83px; height: 124px; }
+span#pa:hover, span#pa:active, span#am:hover, span#am:active, span#mt:hover, span#mt:active, span#ba:hover, span#ba:active, span#ma:hover, span#ma:active,
+span#mg:hover, span#mg:active, span#to:hover, span#to:active, span#pi:hover, span#pi:active, span#go:hover, span#go:active, span#ms:hover, span#ms:active,
+span#rr:hover, span#rr:active, span#rs:hover, span#rs:active, span#ro:hover, span#ro:active, span#ap:hover, span#ap:active, span#sp:hover, span#sp:active,
+span#ce:hover, span#ce:active, span#pr:hover, span#pr:active, span#ac:hover, span#ac:active, span#sc:hover, span#sc:active, span#es:hover, span#es:active,
+span#rj:hover, span#rj:active, span#pb:hover, span#pb:active, span#pe:hover, span#pe:active, span#rn:hover, span#rn:active, span#se:hover, span#se:active,
+span#al:hover, span#al:active, span#df:hover, span#df:active
+{ display: block; background: url('../../assets/images/img-mapa/sprite.png') no-repeat; }
+span#pa.selected, span#am.selected, span#mt.selected, span#ba.selected, span#ma.selected,
+span#mg.selected, span#to.selected, span#pi.selected, span#go.selected, span#ms.selected,
+span#rr.selected, span#rs.selected, span#ro.selected, span#ap.selected, span#sp.selected,
+span#ce.selected, span#pr.selected, span#ac.selected, span#sc.selected, span#es.selected,
+span#rj.selected, span#pb.selected, span#pe.selected, span#rn.selected, span#se.selected,
+span#al.selected, span#df.selected
+{ display: block; background: url('../../assets/images/img-mapa/sprite-red.png') no-repeat; }
+span#pa:hover, span#pa:active, span#pa.selected { background-position: -10px -0px; width: 188px; height: 187px; }
+span#am:hover, span#am:active, span#am.selected { background-position: -10px -197px; width: 258px; height: 181px; }
+span#mt:hover, span#mt:active, span#mt.selected { background-position: -10px -388px; width: 166px; height: 161px; }
+span#ba:hover, span#ba:active, span#ba.selected { background-position: -10px -559px; width: 136px; height: 148px; }
+span#ma:hover, span#ma:active, span#ma.selected { background-position: -156px -559px; width: 102px; height: 139px; }
+span#mg:hover, span#mg:active, span#mg.selected { background-position: -10px -717px; width: 163px; height: 131px; }
+span#to:hover, span#to:active, span#to.selected { background-position: -183px -717px; width: 74px; height: 125px; }
+span#pi:hover, span#pi:active, span#pi.selected { background-position: -10px -858px; width: 83px; height: 124px; }
+span#go:hover, span#go:active, span#go.selected { background-position: -103px -858px; width: 108px; height: 108px; }
+span#ms:hover, span#ms:active, span#ms.selected { background-position: -103px -976px; width: 106px; height: 104px; }
+span#rr:hover, span#rr:active, span#rr.selected { background-position: -10px -992px; width: 87px; height: 103px; }
+span#rs:hover, span#rs:active, span#rs.selected { background-position: -107px -1090px; width: 116px; height: 101px; }
+span#ro:hover, span#ro:active, span#ro.selected { background-position: -10px -1201px; width: 104px; height: 87px; }
+span#ap:hover, span#ap:active, span#ap.selected { background-position: -10px -1105px; width: 73px; height: 85px; }
+span#sp:hover, span#sp:active, span#sp.selected { background-position: -124px -1201px; width: 131px; height: 84px; }
+span#ce:hover, span#ce:active, span#ce.selected { background-position: -186px -388px; width: 61px; height: 76px; }
+span#pr:hover, span#pr:active, span#pr.selected { background-position: -124px -1295px; width: 97px; height: 64px; }
+span#ac:hover, span#ac:active, span#ac.selected { background-position: -10px -1298px; width: 108px; height: 62px; }
+span#sc:hover, span#sc:active, span#sc.selected { background-position: -128px -1369px; width: 81px; height: 53px; }
+span#es:hover, span#es:active, span#es.selected { background-position: -208px -0px; width: 33px; height: 51px; }
+span#rj:hover, span#rj:active, span#rj.selected { background-position: -186px -474px; width: 58px; height: 40px; }
+span#pb:hover, span#pb:active, span#pb.selected { background-position: -10px -1370px; width: 59px; height: 35px; }
+span#pe:hover, span#pe:active, span#pe.selected { background-position: -10px -1415px; width: 97px; height: 34px; }
+span#rn:hover, span#rn:active, span#rn.selected { background-position: -186px -524px; width: 53px; height: 33px; }
+span#se:hover, span#se:active, span#se.selected { background-position: -208px -61px; width: 28px; height: 32px; }
+span#al:hover, span#al:active, span#al.selected { background-position: -208px -103px; width: 46px; height: 27px; }
+span#df:hover, span#df:active, span#df.selected { background-position: -208px -140px; width: 16px; height: 9px; }
+/* Fim sprite */
+ul#map li span img {border: 0; width: inherit; height: inherit;outline: none;}
+ul#map li span{outline: none; cursor: pointer;}
+#lojas .tipo-loja {
+    background: #000;
+    padding: 6px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+#lojas{
+    margin: 0 0 40px;
+}
+.error-loja {
+    font-size: 20px;
+    text-align: center;
+    color: #000;
+    position: relative;
+    top: 226px;
+    display: block;
+}
+.error-loja-b {
+    display: block;
+    line-height: 29px;
+}
+#lojas .endereco, #lojas .mapa-loja, #lojas .horario, #lojas .telefone{
+    display:block;
+}
+#lojas .filial-nome {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display:block;
+}
+#lojas .endereco, #lojas .telefone, #lojas .horario, #lojas .mapa-loja, #lojas .contato, #lojas .email, #lojas .seguimento {
+    font-size: 12px;
+    line-height:18px;
+}
+#lojas .item-loja {
+    margin-bottom: 15px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 14px;
+}
+#lojas a.mapa-loja {
+    color: #000;
+    font-weight: bold;
+}
+#lojas .email > a {
+    color: #000;
+}
+#lojas .item-loja .horario {
+    background: rgba(0, 0, 0, 0) url("../../assets/images/img-mapa/loja-horario.jpg") no-repeat scroll 0 2px;
+    padding-left: 20px;
+}
+#lojas .item-loja .telefone {
+    background: rgba(0, 0, 0, 0) url("../../assets/images/img-mapa/loja-telefone.jpg") no-repeat scroll 0 2px;
+    padding-left: 20px;
+}
+.combo-lojas {
+    float: right;
+    margin: 30px 0 68px;
+}
+.combo-lojas select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 4px;
+    width: 140px;
+}
+.tit-loja {
+    float: left;
+    margin: 30px 0 68px;
+}
+.combo-lojas label{
+    display: block;
+    font-size: 18px;
+    color: #000;
+    text-indent: 12px;
+    margin: 0 0 9px;
+}
+.combo-lojas span {
+    display: inline-block;
+}
+.input-busca input{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 4px;
+    width: 100%;
+}
+#iduf, #idcidade, #idtipoloja, #zona, #busca {
+    font-size: 17px;
+    height: 40px;
+}
+#lb_zona{display: none;}
